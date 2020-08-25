@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 
-const Navibar = () => {
+const Header = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="#home">CJ Pia's Portfolio</Navbar.Brand>
@@ -17,4 +17,4 @@ const Navibar = () => {
   );
 }
 
-export default Navibar;
+export default Header;
